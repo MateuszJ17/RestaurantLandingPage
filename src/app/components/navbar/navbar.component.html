@@ -1,0 +1,29 @@
+<nav>
+  <div class="nav-flex-container">
+    <div class="brand">Brand Name</div>
+    <a class="hamburger-toggle" (click)="hamburgerClick()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="nav-items" [ngClass]="{ active: isExpanded }">
+      <ul>
+        <li>
+          <a>About</a>
+        </li>
+        <li>
+          <a>Menu</a>
+        </li>
+        <li>
+          <a>Catering</a>
+        </li>
+        <li>
+          <a>Booking</a>
+        </li>
+        <li>
+          <a>Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
