@@ -1,0 +1,33 @@
+@import "../../scss/variables.scss";
+
+.menu-download {
+  background: url("../../../assets/cook-366875_1920.jpg") no-repeat bottom
+    center;
+  min-height: 50vh;
+  background-attachment: scroll;
+  padding: 0px;
+  margin: 0px;
+}
+
+.flex-row {
+  margin: 5% 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-img-button {
+  align-self: center;
+  height: 50px;
+  width: 350px;
+  color: white;
+  font-size: larger;
+  border-radius: 15px;
+  background: none;
+  background-color: $live-orange;
+  border: none;
+
+  &:hover {
+    background-color: $live-orange-hover;
+    transition: 0.4s ease;
+  }
+}

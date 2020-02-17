@@ -7,6 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { AboutDescriptionComponent } from './components/about-description/about-description.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { MenuImgComponent } from './components/menu-img/menu-img.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutDescriptionComponent } from './components/about-description/about-
     HomeComponent,
     NavbarComponent,
     AboutComponent,
-    AboutDescriptionComponent
+    AboutDescriptionComponent,
+    MenuComponent,
+    MenuImgComponent
   ],
   imports: [
     BrowserModule,
