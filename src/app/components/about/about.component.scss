@@ -1,0 +1,38 @@
+@import "../../scss/variables.scss";
+
+.background-image {
+  background: url("../../../assets/mediterranean-cuisine-2378758_1920.jpg")
+    no-repeat 0 0;
+  min-height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.flex-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.small-header-text {
+  font-style: italic;
+  font-size: 38px;
+  margin-bottom: 5px;
+}
+
+.main-header-text {
+  padding: 7px;
+  font-weight: 600;
+  font-size: 56px;
+  border: 4px solid white;
+}
+
+.sub-header-text {
+  margin-top: 15px;
+  font-size: 24px;
+  border-bottom: 3px solid white;
+}

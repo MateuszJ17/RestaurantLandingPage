@@ -1,9 +1,13 @@
+@import "../../scss/variables.scss";
+
 .nav-flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: $dark-grey;
   color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .brand {
@@ -21,7 +25,7 @@
   list-style: none;
 
   &:hover {
-    background-color: #e40f0f;
+    background-color: $live-orange;
     transition: ease-in-out 0.2s;
   }
 }
@@ -60,7 +64,7 @@
     width: 100%;
     display: none;
 
-    animation: fade 0.5s ease-in-out;
+    animation: fade 0.5s ease-out;
   }
 
   .nav-flex-container {

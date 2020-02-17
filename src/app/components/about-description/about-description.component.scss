@@ -1,0 +1,64 @@
+@import "../../scss/variables.scss";
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  padding: 15px;
+  margin: 0 15px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.about-header {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 38px;
+  border-bottom: 3px solid $live-orange;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.about-text {
+  font-weight: 100;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.about-text.second {
+  margin-top: 25px;
+}
+
+.img-about {
+  height: 350px;
+  width: 400px;
+  position: relative;
+  z-index: -2;
+}
+
+.img-about.first {
+  top: 50px;
+  left: 25px;
+}
+
+.img-about.second {
+  left: 175px;
+}
+
+.img-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
