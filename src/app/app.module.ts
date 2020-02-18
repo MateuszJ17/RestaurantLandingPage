@@ -10,6 +10,9 @@ import { AboutDescriptionComponent } from './components/about-description/about-
 import { MenuComponent } from './components/menu/menu.component';
 import { MenuImgComponent } from './components/menu-img/menu-img.component';
 import { CateringComponent } from './components/catering/catering.component';
+import { BookingComponent } from './components/booking/booking.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { CateringComponent } from './components/catering/catering.component';
     AboutDescriptionComponent,
     MenuComponent,
     MenuImgComponent,
-    CateringComponent
+    CateringComponent,
+    BookingComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,59 @@
+@import "../../scss/variables.scss";
+
+.flex-container {
+  display: flex;
+  min-height: 100vh;
+  padding: 10px;
+  justify-content: center;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+  width: 500px;
+  //   background-color: red;
+  box-shadow: 0px 2px 12px 0.5px gray;
+}
+
+.contact-header {
+  font-size: 38px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid $live-orange;
+  margin-bottom: 25px;
+}
+
+.minor-break {
+  margin: 10px 0px;
+}
+
+.major-break {
+  margin-top: 75px;
+}
+
+.contact-text {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.contact-button {
+  align-self: center;
+  height: 50px;
+  width: 250px;
+  margin-top: 60px;
+  color: white;
+  font-size: larger;
+  border-radius: 15px;
+  background: none;
+  background-color: $live-orange;
+  border: none;
+
+  &:hover {
+    background-color: $live-orange-hover;
+    transition: 0.4s ease;
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../scss/variables.scss";
+
+.footer-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark-grey;
+  color: lightgrey;
+  width: 100%;
+  min-height: 40px;
+}
+
+.footer-link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: lightgrey;
+
+  &:hover {
+    color: white;
+  }
+}
