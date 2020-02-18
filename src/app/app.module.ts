@@ -9,6 +9,7 @@ import { AboutComponent } from './components/about/about.component';
 import { AboutDescriptionComponent } from './components/about-description/about-description.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { MenuImgComponent } from './components/menu-img/menu-img.component';
+import { CateringComponent } from './components/catering/catering.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MenuImgComponent } from './components/menu-img/menu-img.component';
     AboutComponent,
     AboutDescriptionComponent,
     MenuComponent,
-    MenuImgComponent
+    MenuImgComponent,
+    CateringComponent
   ],
   imports: [
     BrowserModule,

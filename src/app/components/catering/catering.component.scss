@@ -1,0 +1,92 @@
+@import "../../scss/variables.scss";
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  padding: 15px;
+  margin: 0 15px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.catering-header {
+  font-size: 38px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid $live-orange;
+  margin-bottom: 25px;
+}
+
+.catering-text {
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.break {
+  margin: 20px 0px;
+}
+
+.catering-contact-text {
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.catering-number {
+  font-style: italic;
+}
+
+.catering-img-button {
+  align-self: flex-start;
+  height: 50px;
+  width: 550px;
+  margin-top: 100px;
+  color: white;
+  font-size: larger;
+  border-radius: 15px;
+  background: none;
+  background-color: $live-orange;
+  border: none;
+
+  &:hover {
+    background-color: $live-orange-hover;
+    transition: 0.4s ease;
+  }
+}
+
+.flex-column.center-col {
+  align-items: center;
+}
+
+.img-catering {
+  height: 250px;
+  width: 300px;
+  position: relative;
+  z-index: -2;
+}
+
+.img-catering.first {
+  top: 40px;
+  left: 180px;
+}
+
+.img-catering.second {
+  top: 10px;
+  z-index: -3;
+}
+
+.img-catering.third {
+  top: -60px;
+  left: 180px;
+}
